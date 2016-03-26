@@ -1,3 +1,11 @@
+## Next release
+
+* Add `spring server` command to explicitly start a Spring server
+  process in the foreground, which logging to stdout. This will be
+  useful to those who want to run spring more explicitly, but the real
+  impetus was to enable running a spring server inside a Docker
+  container.
+
 ## 1.6.4
 
 * Fix incompatibility with RubyGems 2.6.0.
